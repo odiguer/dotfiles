@@ -1,0 +1,30 @@
+[$Version]
+update_info=yakuake.upd:2.9.9-startupnotification
+
+[Appearance]
+Skin=papirus-dark
+SkinInstalledWithKns=true
+Translucency=true
+
+[Desktop Entry]
+DefaultProfile=Shell.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1440=400
+Width 2560=700
+
+[Favorite Profiles]
+Favorites=
+
+[KFileDialog Settings]
+Height 1080=705
+Width 1920=1280
+
+[Window]
+DynamicTabTitles=true
+Height=40
+KeepOpen=false
+Screen=0
