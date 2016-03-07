@@ -6,6 +6,12 @@ _k_friendly_name=KDE Daemon
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=kaccess
 
+[kcm_touchpad]
+Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
+Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
+Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
+_k_friendly_name=KDE Daemon
+
 [kded5]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -20,7 +26,7 @@ _k_friendly_name=KDE Daemon
 display=Display,Display,Switch Display
 
 [khotkeys]
-_k_friendly_name=KDE Control Module
+_k_friendly_name=KDE Daemon
 {1a5c7c41-fe31-4138-90c7-5c0c4113c01f}=,none,Start Screenshot Tool
 {8d5520cc-7e62-4199-bd47-39e6f0949272}=Meta+E,none,Dolphin Explorer
 {9c02b141-0334-444f-a6e7-d670398edb14}=Ctrl+Alt+T,none,Run Konsole
@@ -210,7 +216,7 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 
 [plasmashell]
 _k_friendly_name=Plasma
-activate widget 2=Alt+F1,none,Activate Application Launcher Widget
+activate widget 39=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
