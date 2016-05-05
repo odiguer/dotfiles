@@ -149,7 +149,7 @@ export VISUAL="nano"
 ## RVM stuff ##
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # Display the current RVM ruby selection
-PS1="\$(/usr/local/rvm/bin/rvm-prompt) $PS1"
+PS1="\$($HOME/.rvm/bin/rvm-prompt) $PS1"
 # RVM bash completion
 [[ -r "$HOME/.rvm/scripts/completion" ]] && source "$HOME/.rvm/scripts/completion"
 
